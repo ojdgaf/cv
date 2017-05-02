@@ -1,7 +1,7 @@
-<p align="center">Curriculum Vitae</p>
+<h1 align="center">Curriculum Vitae</h1>
 
 ## About
 
 Simple one-page resume
 
-[Screenshot](img/screenshot.png)
+![Screenshot](img/screenshot.png)
