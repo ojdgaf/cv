@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Eugene Burdeinyi</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <a name="home"></a>
+  <nav class="navbar navbar-default navbar-fixed-top bg-light">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#home">RASTARUSTY</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container-fluid">
+    <div class="fully-centered">
+      <h1>EUGENE BURDEINYI</h1>
+      <h3>promising web developer</h3>
+    </div>
+  </header>
+
+  <a name="about"></a>
+  <section class="container-fluid bg-dark-gradient">
+    <h3>WHO AM I</h3>
+    <div class="horizontally-centered">
+      <img src="img/avatar.png" class="avatar img-circle" alt="Avatar">
+      <div class="text-wrap">
+        <p>Hi there</p>
+        <p>I'm a third-year student and I'm looking for my first job. The goal is obtaining a position as a Junior Full Stack Developer. I have basic knowledge of popular web technologies and mainly prefer self-training. My portfolio is empty yet, but  I'm trying to develop something new in my spare time during university days.</p>
+        <a href="https://drive.google.com/file/d/0B3wc4f8-EBcwbHRvMUZJblktMnM/view?usp=sharing" class="button light" target="_blank">
+          <i class="fa fa-download"></i> download resume</a>
+      </div>
+    </div>
+  </section>
+
+  <a name="education"></a>
+  <section class="container-fluid bg-light">    
+    <h3>EDUCATION</h3>
+    <div class="horizontally-centered">
+      <p>Odessa National Polytechnic University (2014 - 2018)</p>
+      <p><i>- Institute of Computer Systems</i></p>
+      <p><i>- System Software Department</i></p>
+    </div>
+  </section>
+
+  <a name="skills"></a>
+  <section class="container-fluid bg-dark">
+    <h3>SKILLS</h3>
+    <div class="horizontally-centered">
+      <ul>
+        <li>Languages: PHP, Java, JavaScript, C++</li>
+        <li>Technologies and frameworks: Laravel, jQuery, AJAX, Bootstrap</li>
+        <li>Databases: MySQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <a name="contact"></a>
+  <section class="container-fluid bg-light">    
+    <h3>KEEP IN TOUCH</h3>
+    <div class="horizontally-centered">
+      <ul class="social-links">
+        <li><a href="https://github.com/rastarusty" target="_blank">
+          <i class="fa fa-github"></i></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/rastarusty" target="_blank">
+          <i class="fa fa-linkedin"></i></a>
+        </li>
+        <li><a href="https://vk.com/rastarusty" target="_blank">
+          <i class="fa fa-vk"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/rastarusty" target="_blank">
+          <i class="fa fa-facebook"></i></a>
+        </li>
+      </ul>
+
+      <form action="" method="post" id="contactForm" name="contactForm">
+        <div class="row input-group">
+          <span class="input-group-addon bg-light">name</span>
+          <input id="contactName" name="contactName" value="" required
+          class="form-control bg-light">
+        </div>
+
+        <div class="row input-group">
+          <span class="input-group-addon bg-light">email</span>
+          <input id="contactEmail" name="contactEmail" value="" required
+          class="form-control bg-light" type="email">
+        </div>
+
+        <div class="row input-group">
+          <span class="input-group-addon bg-light">subject</span>
+          <input id="contactSubject" name="contactSubject" value="" required
+          class="form-control bg-light">
+        </div>
+
+        <div class="row input-group">
+          <span class="input-group-addon bg-light">message</span>
+          <textarea id="contactMessage" name="contactMessage" required
+          class="form-control bg-light"></textarea>
+        </div>
+
+        <button class="submit bg-light"><span>Submit</span></button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="container-fluid">
+    <p class="text-muted text-right">&copy; 2017 Created by Eugene Burdeinyi</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
